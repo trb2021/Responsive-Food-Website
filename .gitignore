@@ -104,6 +104,6 @@ dist
 .tern-port
 
 # assets files
-./assets/fonts/*
+assets/fonts/*.*
 *.png
 *.gif
