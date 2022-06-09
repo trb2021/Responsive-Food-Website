@@ -7,8 +7,14 @@
     <title>Complete Responsive Food Website</title>
     <!-- Font awsome -->
     <link rel="stylesheet" href="./assets/fonts/css/all.min.css" />
+    <!-- Swiperjs CDN -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+
   </head>
   <body>
     <!-- Header section -->
@@ -37,10 +43,10 @@
     </form>
     <!-- Home section -->
     <section class="home" id="home">
-      <div class="home-slider">
-        <div class="wrapper">
+      <div class="swiper-slide home-slider">
+        <div class="swiper-wrapper wrapper">
           <!-- slide 1 -->
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span>our special dish</span>
               <h3>spicy noodles</h3>
@@ -48,14 +54,14 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
                 explicabo amet ratione sed quasi.
               </p>
-              <a href="#" class="btn"></a>
+              <a href="#" class="btn">order now</a>
             </div>
             <div class="image">
               <img src="./assets/img/home-img-1.png" alt="" />
             </div>
           </div>
           <!-- slide 2 -->
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span>our special dish/span>
               <h3>fried chicken</h3>
@@ -63,14 +69,14 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
                 explicabo amet ratione sed quasi.
               </p>
-              <a href="#" class="btn"></a>
+              <a href="#" class="btn">order now</a>
             </div>
             <div class="image">
               <img src="./assets/img/home-img-2.png" alt="" />
             </div>
           </div>
           <!-- slide 3 -->
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span>our special dish</span>
               <h3>hot pizza</h3>
@@ -78,16 +84,21 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
                 explicabo amet ratione sed quasi.
               </p>
-              <a href="#" class="btn"></a>
+              <a href="#" class="btn">order now</a>
             </div>
             <div class="image">
               <img src="./assets/img/home-img-3.png" alt="" />
             </div>
           </div>
         </div>
+
+        <div class="swiper-pagination"></div>
+
       </div>
     </section>
 
+    <!-- Swiperjs JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <!-- Link to JS -->
     <script src="assets/js/main.js"></script>
   </body>

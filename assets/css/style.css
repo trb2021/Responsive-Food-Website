@@ -36,6 +36,22 @@ section:nth-child(even) {
   background: #eee;
 }
 
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--black);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.8rem 3rem;
+}
+
+.btn:hover {
+  background: var(--green);
+  letter-spacing: 0.1rem;
+}
+
 /* Header section styles */
 
 header {
@@ -49,6 +65,7 @@ header {
   justify-content: space-between;
   z-index: 1000;
   box-shadow: var(--box-shadow);
+  background: #fff;
 }
 
 header .logo {
@@ -161,18 +178,18 @@ header .icons #menu-bars {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding-top: 9rem;
+  padding-top: 7rem;
 }
 
 .home .home-slider .slide .content {
-  flex: 1 1 45rem;
+  flex: 1 1 40rem;
 }
 
 .home .home-slider .slide .image {
   flex: 1 1 45rem;
 }
 
-.home .home-slider .slide .img {
+.home .home-slider .slide img {
   width: 100%;
 }
 
@@ -191,6 +208,10 @@ header .icons #menu-bars {
   font-size: 2.2rem;
   padding: 5rem 0;
   line-height: 1.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--green);
 }
 
 /* Media queries */
