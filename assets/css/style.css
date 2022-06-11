@@ -308,6 +308,69 @@ header .icons #menu-bars {
   font-size: 2.5rem;
 }
 
+/* About section styles */
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 45rem;
+}
+
+.about .row .content h3 {
+  color: var(--black);
+  font-size: 4rem;
+  padding: 0.5rem 0;
+}
+
+.about .row .content p {
+  color: var(--light-color);
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  line-height: 2rem;
+}
+
+.about .row .content .icons-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  padding: 1rem 0;
+}
+
+.about .row .content .icons-container .icons {
+  background: #eee;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1 1 1.7rem;
+  padding: 1.5rem 1rem;
+}
+
+.about .row .content .icons-container .icons i {
+  font-size: 2.5rem;
+  color: var(--green);
+}
+
+.about .row .content .icons-container .icons span {
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
 /* Media queries */
 @media (max-width: 991px) {
   html {
