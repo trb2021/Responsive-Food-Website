@@ -1,2 +1,2 @@
-# delicius
-Responsive Food Website using HTML/CSS/JavaScript
+# Responsive Food Website
+Responsive Food Website practice, using HTML/CSS/JavaScript
